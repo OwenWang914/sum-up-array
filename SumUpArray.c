@@ -9,20 +9,20 @@ int main() {
     int i;
 
     printf("Enter the number of elements in the array: ");
-    scanf("%d", &n);
+    scanf("%i", &n);
 
     int arr[n];
 
     printf("Enter %d integers: ", n);
     for (i = 0; i < n; i++) {
-        scanf("%d", &arr[i]);
+        scanf("%i", &arr[i]);
     }
 
     for (i = 0; i < n; i++) {
         sum += arr[i];
     }
 
-    printf("Sum is %d", sum);
+    printf("Sum is %i", sum);
 
     return 0;
 }
